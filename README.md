@@ -28,3 +28,9 @@ leading to large uncertainty in the estimate.
 However, as of October 7, 2023 the most likely range of unit sales is **727,000-959,000** (68% CI).
 
 The validity of this method will be tested when the next batch of sales figures are released by Sony.
+
+# Use
+
+Download or clone estimatePSVR2sales.py into a local repository.  
+Run at command line using `python estimatePSVR2sales.py`.
+Estimates will be reported in the console window.
