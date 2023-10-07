@@ -34,3 +34,7 @@ The validity of this method will be tested when the next batch of sales figures 
 Download or clone estimatePSVR2sales.py into a local repository.  
 Run at command line using `python estimatePSVR2sales.py`.
 Estimates will be reported in the console window.
+
+# Author
+Alex Johnson-Buck
+alebuck@umich.edu
