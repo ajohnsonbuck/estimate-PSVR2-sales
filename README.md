@@ -9,9 +9,9 @@ However, the ratio of hardware sales to subscribers is highly platform- and subr
 Using the historical correlation between r/PSVR subscribers and PS VR sales from 2016-2022, this method
 predicted PS VR2 sales of 684,000 within the first month.
 A consulting firm hired by Bloomberg, IDC, predicted about 270,000-300,000 sales in the same period.
-Sales figures released by Sony indicated 580,000 units of PS VR2 sold in the first 6 weeks, so my estimate (27% error)
+Sales figures released by Sony indicated 580,000 units of PS VR2 sold in the first 6 weeks, **so my estimate (27% error)
 was considerably closer than that of IDC/Bloomberg (51% error), despite being based on the simple metric of 
-subreddit statistics.
+subreddit statistics.**
 
 I further found very strong linear correlation (R^2 > 0.99) between the reported PS VR2 sales by Sony in the first 
 6 weeks and the subscriber numbers of the r/PSVR and r/psvr2 subreddits.
@@ -35,6 +35,10 @@ Download or clone estimatePSVR2sales.py into a local repository.
 Run at command line using `python estimatePSVR2sales.py`.
 Estimates will be reported in the console window.
 
+# License
+
+BSD 3-Clause License
+
 # Author
-Alex Johnson-Buck
-alebuck@umich.edu
+
+Alex Johnson-Buck (alebuck@umich.edu)
