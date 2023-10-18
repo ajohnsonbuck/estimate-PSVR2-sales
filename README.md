@@ -1,5 +1,5 @@
 # estimate-PSVR2-sales
-Estimate hardware unit sales of Sony PS VR2 based on relevant subreddit statistics
+Effort to estimate hardware unit sales of Sony PS VR2 based on relevant subreddit statistics and sparse official sales figures.
 
 # Extended Description
 
@@ -25,7 +25,7 @@ present date, as well as 66 and 95% confidence intervals.
 In May 2023, the two estimates from r/PSVR and r/psvr2 were quite close, but have since diverged considerably,
 leading to large uncertainty in the estimate.  
 
-However, as of October 7, 2023 the most likely range of unit sales is **727,000-959,000** (68% CI).
+However, as of October 18, 2023 the most likely range of unit sales is **732,000-975,000** (68% CI).
 
 The validity of this method will be tested when the next batch of sales figures are released by Sony.
 
