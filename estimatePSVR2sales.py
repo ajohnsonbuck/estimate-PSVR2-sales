@@ -7,7 +7,7 @@ Sony PSVR2 Hardware Sales Estimation:
 
     Using the historical correlation between r/PSVR subscribers and PS VR sales from 2016-2022, this method
     predicted PS VR2 sales of 684,000 within the first month.
-    A consulting firm hired by Bloomberg, IDC, predicted about 270,000-300,000 sales in the same period.
+    A consulting firm hired by Bloomberg, IDC, predicted about 270,000-300,000 sales through March 2023, about 6 weeks after launch.
     Sales figures released by Sony indicated 580,000 units of PS VR2 sold in the first 6 weeks, so my estimate (27% error)
     was considerably closer than that of IDC/Bloomberg (51% error), despite being based on the simple metric of 
     subreddit statistics.
