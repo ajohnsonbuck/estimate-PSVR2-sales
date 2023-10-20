@@ -20,12 +20,18 @@ I have used these more recent linear regression fits to create updated estimates
 r/psvr2 and r/PSVR give two indepedent estimates, allowing a crude estimate of uncertainty (68% and 95% CIs).
 
 This script extracts the subscriber numbers from r/PSVR and r/psvr2 and estimates units of PS VR2 sold up to the
-present date, as well as 66 and 95% confidence intervals.
+present date, as well as 66 and 95% confidence intervals.  A small correction factor is applied to each of the subscriber 
+counts, in an attempt to account for the different approaches of the subreddits to the June 2023 Reddit blackout.  
+r/PSVR went private while r/psvr2 merely prevented posts; this seems to have resulted in a temporary increase in the
+rate of new subscribers for r/psvr2 and a cessation of new subscribers for r/PSVR for about 1 week, which I have attempted
+to corret for with the constants corr1 and corr2.
 
 In May 2023, the two estimates from r/PSVR and r/psvr2 were quite close, but have since diverged considerably,
 leading to large uncertainty in the estimate.  
 
-However, as of October 18, 2023 the most likely range of unit sales is **732,000-975,000** (68% CI).
+However, as of October 18, 2023 the most likely range of unit sales is **732,000-975,000** (68% CI), so a little 
+less than 1 million units.  With a small holiday surge, it's fairly likely to cross the 1 million units mark by 
+the end of 2023.
 
 The validity of this method will be tested when the next batch of sales figures are released by Sony.
 
