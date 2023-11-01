@@ -59,5 +59,7 @@ if type(subscriber_count1) == int and type(subscriber_count2) == int:
     CI68 = int(sd)
     print('Estimated sales:', estimatedSales,"+/-",CI95, " (95% CI)")
     print('                ', estimatedSales,"+/-",CI68, " (68% CI)")
+    print(r'r/PSVR estimate:', estimatedSales1)
+    print(r'r/psvr2 estimate:', estimatedSales2)
 else:
     print('Error: values not extracted correctly.')
