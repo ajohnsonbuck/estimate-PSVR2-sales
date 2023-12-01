@@ -27,6 +27,7 @@ Sony PSVR2 Hardware Sales Estimation:
 import re
 import requests
 import numpy as np
+import pandas as pd
 
 # Send a GET request to subreddit stats pages, which will serve as sales indicators
 url1 = 'https://subredditstats.com/r/PSVR'  # Sales indicator 1: r/PSVR
