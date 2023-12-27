@@ -29,20 +29,25 @@ import requests
 import numpy as np
 import pandas as pd
 
+# 2023-12-27 subredditstats.com is no longer being updated -- need to enter subscriber counts manually for the moment
+
 # Send a GET request to subreddit stats pages, which will serve as sales indicators
-url1 = 'https://subredditstats.com/r/PSVR'  # Sales indicator 1: r/PSVR
-url2 = 'https://subredditstats.com/r/psvr2' # Sales indicator 2: r/psvr2
-response1 = requests.get(url1)
-response2 = requests.get(url2)
+# url1 = 'https://subredditstats.com/r/PSVR'  # Sales indicator 1: r/PSVR
+# url1 = 'https://www.reddit.com/r/PSVR/' 
+# url2 = 'https://subredditstats.com/r/psvr2' # Sales indicator 2: r/psvr2
+# response1 = requests.get(url1)
+# response2 = requests.get(url2)
 
-# Extract the subscriber count using regex
-subscriber_count1 = re.search(r'"subscriberCount":\s*(\d+)', response1.text)
-if subscriber_count1:
-    subscriber_count1 = int(subscriber_count1.group(1))
+# # Extract the subscriber count using regex
+# subscriber_count1 = re.search(r'"subscriberCount":\s*(\d+)', response1.text)
+# if subscriber_count1:
+#     subscriber_count1 = int(subscriber_count1.group(1))
+# subscriber_count2 = re.search(r'"subscriberCount":\s*(\d+)', response2.text)
+# if subscriber_count2:
+#     subscriber_count2 = int(subscriber_count2.group(1))
 
-subscriber_count2 = re.search(r'"subscriberCount":\s*(\d+)', response2.text)
-if subscriber_count2:
-    subscriber_count2 = int(subscriber_count2.group(1))
+subscriber_count1 = 228784 # Values must be entered manually for the time being
+subscriber_count2 = 6713
 
 # Correction factors for June 12-14 Reddit blackout, determined as y-offset between pre- and post-blackout linear regression fits
 corr1 = 395
