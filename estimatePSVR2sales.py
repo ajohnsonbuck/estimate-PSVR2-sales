@@ -21,6 +21,8 @@ Sony PSVR2 Hardware Sales Estimation:
     This script extracts the subscriber numbers from r/PSVR and r/psvr2 and estimates units of PS VR2 sold up to the
     present date, as well as 66 and 95% confidence intervals.
     
+    UPDATE 2023-12-27: subredditstats.com is no longer updated due to new Reddit API costs. Subscriber counts need to be entered manually for the time being.
+    
     The validity of this method will be tested when the next batch of sales figures are released by Sony.
 '''
 
