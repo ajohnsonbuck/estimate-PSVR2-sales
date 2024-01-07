@@ -48,8 +48,8 @@ import pandas as pd
 # if subscriber_count2:
 #     subscriber_count2 = int(subscriber_count2.group(1))
 
-subscriber_count1 = 228784 # Values must be entered manually for the time being
-subscriber_count2 = 6713
+subscriber_count1 = 230035 # Values must be entered manually for the time being
+subscriber_count2 = 6956
 
 # Correction factors for June 12-14 Reddit blackout, determined as y-offset between pre- and post-blackout linear regression fits
 corr1 = 395
